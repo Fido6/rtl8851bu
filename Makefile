@@ -57,12 +57,12 @@ CONFIG_GSPI_HCI = n
 ########################## Features ###########################
 CONFIG_MP_INCLUDED = y
 CONFIG_CONCURRENT_MODE = y
-CONFIG_POWER_SAVE = y
+CONFIG_POWER_SAVE = n
 CONFIG_BTC = y
 CONFIG_WAPI_SUPPORT = n
 CONFIG_EFUSE_CONFIG_FILE = y
 CONFIG_EXT_CLK = n
-CONFIG_TRAFFIC_PROTECT = n
+CONFIG_TRAFFIC_PROTECT = y
 CONFIG_LOAD_PHY_PARA_FROM_FILE = y
 # Remember to set CONFIG_FILE_FWIMG when set CONFIG_FILE_FWIMG to y,
 # or driver will fail on ifconfig up because can't find firmware file
@@ -74,7 +74,7 @@ CONFIG_TXPWR_LIMIT_EN = n
 CONFIG_RTW_REGDB = phl
 ########################## Initial Channel Plan  ##########################
 # XX: unspecified
-CONFIG_RTW_COUNTRY_CODE = XX
+CONFIG_RTW_COUNTRY_CODE = AU
 # 0xFFFF: unspecified
 CONFIG_RTW_CHPLAN = 0xFFFF
 # 0xFFFF: unspecified
